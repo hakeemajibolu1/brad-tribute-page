@@ -4,70 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Tribute to Brad Traversy</title>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#about">About</a></li>
+            <li><a href="#main">About</a></li>
             <li><a href="#popular">Popular Videos</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#social">Social</a></li>
         </ul>
     </nav>
 
-    <section id="about">
-        <div>
-            <h1>Brad Traversy</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quia, quaerat ea reiciendis exercitationem eaque asperiores explicabo, ratione consectetur officia quam neque nesciunt, rem voluptates unde voluptatibus! Culpa accusamus commodi, nam et accusantium nihil quia suscipit iure beatae, explicabo consequuntur quo molestiae reiciendis possimus odit laudantium, quod quibusdam minima non.</p>
-
-            <p>Brad runs a popular YouTube channel for programmers. It has over 800+ video tutorials.</p>
-
-            <div class="g-ytsubscribe" data-channelid="UC29ju8bIPH5as8OGnQzwJyA" data-layout="full" data-count="default"></div>
-
-        </div>
-        <div>
-            <img src="https://i.udemycdn.com/user/200_H/21681922_4513_5.jpg" alt="brad">
-            <!-- <img src="/img/traversy.jpg" alt="brad /"> -->
-            <p>Brad Traversy - #CoolGuy &#128526;</p>
+    <section id="main">
+        <div class="container">
+            <div id="tribute-info" class="tribute-info">
+                <h1 id="title">Brad Traversy</h1>
+                <p>Brad has been a freelancer, worked for a company and has run his own business, but he discovered that his real passion is teaching web development & programming in a simple and understandable way. He now runs the Traversy Media YouTube channel and produces online courses.</p>
+    
+                <p>His <a id="tribute-link" href="https://www.youtube.com/c/TraversyMedia/featured" target="_blank">YouTube channel</a> has over 800+ video tutorials.</p>
+    
+                <div class="g-ytsubscribe" data-channelid="UC29ju8bIPH5as8OGnQzwJyA" data-layout="full" data-count="default"></div>
+    
+            </div>
+            <div id="img-div" class="img-div">
+                <img src="https://i.udemycdn.com/user/200_H/21681922_4513_5.jpg" alt="brad" id="image" class="responsive-img">
+                <!-- <img src="/img/traversy.jpg" alt="brad /"> -->
+                <p id="img-caption">Brad Traversy - <strong>#CoolGuy</strong> &#128526;</p>
+            </div>
         </div>
     </section>
 
-    <section id="popular">
+    <section id="popular" class="bg-red">
         <h2>Popular Videos</h2>
-        <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/yfoY53QXEnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/hdI2bqOjy3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sBws8MSXN7A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="container">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/yfoY53QXEnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/hdI2bqOjy3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/sBws8MSXN7A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 
     <section id="testimonials">
         <h2>Testimonials</h2>
+        <div class="container">
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Been one of my favorite content creators for a couple of years. Highly recommend for anyone looking to learn in different categories of web development</p>&mdash; James Q Quick (@jamesqquick) <a href="https://twitter.com/jamesqquick/status/1228793660877221889?ref_src=twsrc%5Etfw">February 15, 2020</a></blockquote>
 
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Been one of my favorite content creators for a couple of years. Highly recommend for anyone looking to learn in different categories of web development</p>&mdash; James Q Quick (@jamesqquick) <a href="https://twitter.com/jamesqquick/status/1228793660877221889?ref_src=twsrc%5Etfw">February 15, 2020</a></blockquote>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you Brad for your hard work and inspiration... 1M person who wants to see new content from you is amazing. That&#39;s big responsibility also but I am sure you know it.<br>Wish you to reach 2M Subs next year. <a href="https://t.co/VlKS2w7VVY">pic.twitter.com/VlKS2w7VVY</a></p>&mdash; The Codeholic (@thecodeholic) <a href="https://twitter.com/thecodeholic/status/1228897622506835968?ref_src=twsrc%5Etfw">February 16, 2020</a></blockquote>
 
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you Brad for your hard work and inspiration... 1M person who wants to see new content from you is amazing. That&#39;s big responsibility also but I am sure you know it.<br>Wish you to reach 2M Subs next year. <a href="https://t.co/VlKS2w7VVY">pic.twitter.com/VlKS2w7VVY</a></p>&mdash; The Codeholic (@thecodeholic) <a href="https://twitter.com/thecodeholic/status/1228897622506835968?ref_src=twsrc%5Etfw">February 16, 2020</a></blockquote>
-
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The first developer YouTube channel I subscribed to.<br>In fact, the man that kicked off my developer journey 3 years ago. From HTML and CSS to the MERN stack and beyond! I truly can&#39;t thank you enough or recommend anyone better than Brad Traversy!!!<a href="https://twitter.com/hashtag/MillionThanksBrad?src=hash&amp;ref_src=twsrc%5Etfw">#MillionThanksBrad</a> <a href="https://t.co/uMBkwOM9ew">https://t.co/uMBkwOM9ew</a></p>&mdash; codeWithMatt 💻👨‍💻 (@codingWithMatt) <a href="https://twitter.com/codingWithMatt/status/1229063394331893766?ref_src=twsrc%5Etfw">February 16, 2020</a></blockquote>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The first developer YouTube channel I subscribed to.<br>In fact, the man that kicked off my developer journey 3 years ago. From HTML and CSS to the MERN stack and beyond! I truly can&#39;t thank you enough or recommend anyone better than Brad Traversy!!!<a href="https://twitter.com/hashtag/MillionThanksBrad?src=hash&amp;ref_src=twsrc%5Etfw">#MillionThanksBrad</a> <a href="https://t.co/uMBkwOM9ew">https://t.co/uMBkwOM9ew</a></p>&mdash; codeWithMatt 💻👨‍💻 (@codingWithMatt) <a href="https://twitter.com/codingWithMatt/status/1229063394331893766?ref_src=twsrc%5Etfw">February 16, 2020</a></blockquote>
+        </div>
     </section>
 
-    <section id="social">
-        <h2>Follow him on</h2>
-        <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">GitHub</a></li>
-        </ul>
+    <section id="social" class="bg-red">
+            <h2>Follow Brad</h2>
+            <ul class="container social-ul">
+                <li><a href="https://twitter.com/traversymedia" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/traversymedia/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://web.facebook.com/traversymedia?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/bradtraversy/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/bradtraversy" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
     </section>
 
     <footer>
